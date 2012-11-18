@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE7C258816586DAF003CC82F /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7C258716586DAF003CC82F /* Note.m */; };
+		CE7C577116578ED100F693DA /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7C577016578ED100F693DA /* MapViewController.m */; };
+		CE7C57881657999800F693DA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7C57871657999800F693DA /* MapKit.framework */; };
+		CE7C57981657A93900F693DA /* NoteAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7C57971657A93900F693DA /* NoteAnnotation.m */; };
+		CE7C579A1657AA1A00F693DA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7C57991657AA1A00F693DA /* CoreLocation.framework */; };
 		CE82ECD6164FDC0A0031B243 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE82ECD5164FDC0A0031B243 /* UIKit.framework */; };
 		CE82ECD8164FDC0A0031B243 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE82ECD7164FDC0A0031B243 /* Foundation.framework */; };
 		CE82ECDA164FDC0A0031B243 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE82ECD9164FDC0A0031B243 /* CoreGraphics.framework */; };
@@ -16,23 +21,67 @@
 		CE82ECE9164FDC0A0031B243 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE82ECE7164FDC0A0031B243 /* MainStoryboard_iPhone.storyboard */; };
 		CE82ECEC164FDC0A0031B243 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE82ECEA164FDC0A0031B243 /* MainStoryboard_iPad.storyboard */; };
 		CE82ECEF164FDC0A0031B243 /* MDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE82ECEE164FDC0A0031B243 /* MDViewController.m */; };
+		CE82ECFA164FDD730031B243 /* Notes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE82ECF8164FDD730031B243 /* Notes.xcdatamodeld */; };
+		CE82ECFF164FDE540031B243 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE82ECFE164FDE540031B243 /* CoreData.framework */; };
+		CE82ED0D164FDEF30031B243 /* new_note.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE82ED06164FDEF30031B243 /* new_note.jpg */; };
+		CE82ED0E164FDEF30031B243 /* view_note.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE82ED07164FDEF30031B243 /* view_note.jpg */; };
+		CE82ED0F164FDEF30031B243 /* next.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE82ED08164FDEF30031B243 /* next.jpg */; };
+		CE82ED10164FDEF30031B243 /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE82ED09164FDEF30031B243 /* image.jpg */; };
+		CE82ED11164FDEF30031B243 /* map.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE82ED0A164FDEF30031B243 /* map.jpg */; };
+		CE82ED12164FDEF30031B243 /* ok.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE82ED0B164FDEF30031B243 /* ok.jpg */; };
+		CE82ED13164FDEF30031B243 /* note_beta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE82ED0C164FDEF30031B243 /* note_beta.jpg */; };
+		CE82ED17164FE9B40031B243 /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE82ECF7164FDC760031B243 /* CoreDataTableViewController.m */; };
+		CE82ED18164FE9D60031B243 /* NoteTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE82ED01164FDE880031B243 /* NoteTableViewCell.m */; };
+		CE82ED19164FE9D60031B243 /* NoteTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE82ED03164FDE990031B243 /* NoteTableViewController.m */; };
+		CE8B268716513A0C000C073E /* AddNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8B268616513A0C000C073E /* AddNoteViewController.m */; };
+		CE8B268B16513A89000C073E /* DateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8B268A16513A89000C073E /* DateViewController.m */; };
+		CEE2207D1653ED2500036BFA /* NoteDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE2207C1653ED2500036BFA /* NoteDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE7C258616586DAF003CC82F /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		CE7C258716586DAF003CC82F /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
+		CE7C576F16578ED100F693DA /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		CE7C577016578ED100F693DA /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		CE7C57871657999800F693DA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		CE7C57961657A93900F693DA /* NoteAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteAnnotation.h; sourceTree = "<group>"; };
+		CE7C57971657A93900F693DA /* NoteAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteAnnotation.m; sourceTree = "<group>"; };
+		CE7C57991657AA1A00F693DA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		CE82ECD1164FDC0A0031B243 /* MapDiaryDemo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapDiaryDemo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE82ECD5164FDC0A0031B243 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CE82ECD7164FDC0A0031B243 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CE82ECD9164FDC0A0031B243 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		CE82ECDD164FDC0A0031B243 /* MapDiaryDemo2-Info.plist */ = {isa = PBXFileReference; path = "MapDiaryDemo2-Info.plist"; sourceTree = "<group>"; };
+		CE82ECDD164FDC0A0031B243 /* MapDiaryDemo2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MapDiaryDemo2-Info.plist"; sourceTree = "<group>"; };
 		CE82ECDF164FDC0A0031B243 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE82ECE1164FDC0A0031B243 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CE82ECE3164FDC0A0031B243 /* MapDiaryDemo2-Prefix.pch */ = {isa = PBXFileReference; path = "MapDiaryDemo2-Prefix.pch"; sourceTree = "<group>"; };
-		CE82ECE4164FDC0A0031B243 /* MDAppDelegate.h */ = {isa = PBXFileReference; path = MDAppDelegate.h; sourceTree = "<group>"; };
+		CE82ECE3164FDC0A0031B243 /* MapDiaryDemo2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MapDiaryDemo2-Prefix.pch"; sourceTree = "<group>"; };
+		CE82ECE4164FDC0A0031B243 /* MDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDAppDelegate.h; sourceTree = "<group>"; };
 		CE82ECE5164FDC0A0031B243 /* MDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDAppDelegate.m; sourceTree = "<group>"; };
 		CE82ECE8164FDC0A0031B243 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		CE82ECEB164FDC0A0031B243 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		CE82ECED164FDC0A0031B243 /* MDViewController.h */ = {isa = PBXFileReference; path = MDViewController.h; sourceTree = "<group>"; };
+		CE82ECED164FDC0A0031B243 /* MDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDViewController.h; sourceTree = "<group>"; };
 		CE82ECEE164FDC0A0031B243 /* MDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDViewController.m; sourceTree = "<group>"; };
+		CE82ECF6164FDC760031B243 /* CoreDataTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewController.h; sourceTree = "<group>"; };
+		CE82ECF7164FDC760031B243 /* CoreDataTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewController.m; sourceTree = "<group>"; };
+		CE82ECF9164FDD730031B243 /* Notes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Notes.xcdatamodel; sourceTree = "<group>"; };
+		CE82ECFE164FDE540031B243 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CE82ED00164FDE880031B243 /* NoteTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoteTableViewCell.h; sourceTree = "<group>"; };
+		CE82ED01164FDE880031B243 /* NoteTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoteTableViewCell.m; sourceTree = "<group>"; };
+		CE82ED02164FDE990031B243 /* NoteTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoteTableViewController.h; sourceTree = "<group>"; };
+		CE82ED03164FDE990031B243 /* NoteTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoteTableViewController.m; sourceTree = "<group>"; };
+		CE82ED06164FDEF30031B243 /* new_note.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = new_note.jpg; sourceTree = "<group>"; };
+		CE82ED07164FDEF30031B243 /* view_note.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = view_note.jpg; sourceTree = "<group>"; };
+		CE82ED08164FDEF30031B243 /* next.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = next.jpg; sourceTree = "<group>"; };
+		CE82ED09164FDEF30031B243 /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpg; sourceTree = "<group>"; };
+		CE82ED0A164FDEF30031B243 /* map.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = map.jpg; sourceTree = "<group>"; };
+		CE82ED0B164FDEF30031B243 /* ok.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ok.jpg; sourceTree = "<group>"; };
+		CE82ED0C164FDEF30031B243 /* note_beta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = note_beta.jpg; sourceTree = "<group>"; };
+		CE8B268516513A0C000C073E /* AddNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNoteViewController.h; sourceTree = "<group>"; };
+		CE8B268616513A0C000C073E /* AddNoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNoteViewController.m; sourceTree = "<group>"; };
+		CE8B268916513A89000C073E /* DateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateViewController.h; sourceTree = "<group>"; };
+		CE8B268A16513A89000C073E /* DateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateViewController.m; sourceTree = "<group>"; };
+		CEE2207B1653ED2400036BFA /* NoteDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteDetailViewController.h; sourceTree = "<group>"; };
+		CEE2207C1653ED2500036BFA /* NoteDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +89,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE7C579A1657AA1A00F693DA /* CoreLocation.framework in Frameworks */,
+				CE7C57881657999800F693DA /* MapKit.framework in Frameworks */,
+				CE82ECFF164FDE540031B243 /* CoreData.framework in Frameworks */,
 				CE82ECD6164FDC0A0031B243 /* UIKit.framework in Frameworks */,
 				CE82ECD8164FDC0A0031B243 /* Foundation.framework in Frameworks */,
 				CE82ECDA164FDC0A0031B243 /* CoreGraphics.framework in Frameworks */,
@@ -69,6 +121,9 @@
 		CE82ECD4164FDC0A0031B243 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CE7C57991657AA1A00F693DA /* CoreLocation.framework */,
+				CE7C57871657999800F693DA /* MapKit.framework */,
+				CE82ECFE164FDE540031B243 /* CoreData.framework */,
 				CE82ECD5164FDC0A0031B243 /* UIKit.framework */,
 				CE82ECD7164FDC0A0031B243 /* Foundation.framework */,
 				CE82ECD9164FDC0A0031B243 /* CoreGraphics.framework */,
@@ -79,13 +134,33 @@
 		CE82ECDB164FDC0A0031B243 /* MapDiaryDemo2 */ = {
 			isa = PBXGroup;
 			children = (
+				CE82ED05164FDEE50031B243 /* images */,
 				CE82ECE4164FDC0A0031B243 /* MDAppDelegate.h */,
 				CE82ECE5164FDC0A0031B243 /* MDAppDelegate.m */,
 				CE82ECE7164FDC0A0031B243 /* MainStoryboard_iPhone.storyboard */,
 				CE82ECEA164FDC0A0031B243 /* MainStoryboard_iPad.storyboard */,
 				CE82ECED164FDC0A0031B243 /* MDViewController.h */,
 				CE82ECEE164FDC0A0031B243 /* MDViewController.m */,
+				CE82ECF6164FDC760031B243 /* CoreDataTableViewController.h */,
+				CE82ECF7164FDC760031B243 /* CoreDataTableViewController.m */,
+				CE82ED00164FDE880031B243 /* NoteTableViewCell.h */,
+				CE82ED01164FDE880031B243 /* NoteTableViewCell.m */,
+				CE82ED02164FDE990031B243 /* NoteTableViewController.h */,
+				CE82ED03164FDE990031B243 /* NoteTableViewController.m */,
+				CE8B268916513A89000C073E /* DateViewController.h */,
+				CE8B268A16513A89000C073E /* DateViewController.m */,
+				CE8B268516513A0C000C073E /* AddNoteViewController.h */,
+				CE8B268616513A0C000C073E /* AddNoteViewController.m */,
+				CEE2207B1653ED2400036BFA /* NoteDetailViewController.h */,
+				CEE2207C1653ED2500036BFA /* NoteDetailViewController.m */,
+				CE7C576F16578ED100F693DA /* MapViewController.h */,
+				CE7C577016578ED100F693DA /* MapViewController.m */,
+				CE7C57961657A93900F693DA /* NoteAnnotation.h */,
+				CE7C57971657A93900F693DA /* NoteAnnotation.m */,
 				CE82ECDC164FDC0A0031B243 /* Supporting Files */,
+				CE7C258616586DAF003CC82F /* Note.h */,
+				CE7C258716586DAF003CC82F /* Note.m */,
+				CE82ECF8164FDD730031B243 /* Notes.xcdatamodeld */,
 			);
 			path = MapDiaryDemo2;
 			sourceTree = "<group>";
@@ -99,6 +174,20 @@
 				CE82ECE3164FDC0A0031B243 /* MapDiaryDemo2-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE82ED05164FDEE50031B243 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				CE82ED06164FDEF30031B243 /* new_note.jpg */,
+				CE82ED07164FDEF30031B243 /* view_note.jpg */,
+				CE82ED08164FDEF30031B243 /* next.jpg */,
+				CE82ED09164FDEF30031B243 /* image.jpg */,
+				CE82ED0A164FDEF30031B243 /* map.jpg */,
+				CE82ED0B164FDEF30031B243 /* ok.jpg */,
+				CE82ED0C164FDEF30031B243 /* note_beta.jpg */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +244,13 @@
 				CE82ECE0164FDC0A0031B243 /* InfoPlist.strings in Resources */,
 				CE82ECE9164FDC0A0031B243 /* MainStoryboard_iPhone.storyboard in Resources */,
 				CE82ECEC164FDC0A0031B243 /* MainStoryboard_iPad.storyboard in Resources */,
+				CE82ED0D164FDEF30031B243 /* new_note.jpg in Resources */,
+				CE82ED0E164FDEF30031B243 /* view_note.jpg in Resources */,
+				CE82ED0F164FDEF30031B243 /* next.jpg in Resources */,
+				CE82ED10164FDEF30031B243 /* image.jpg in Resources */,
+				CE82ED11164FDEF30031B243 /* map.jpg in Resources */,
+				CE82ED12164FDEF30031B243 /* ok.jpg in Resources */,
+				CE82ED13164FDEF30031B243 /* note_beta.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,9 +261,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE82ED18164FE9D60031B243 /* NoteTableViewCell.m in Sources */,
+				CE82ED19164FE9D60031B243 /* NoteTableViewController.m in Sources */,
+				CE82ED17164FE9B40031B243 /* CoreDataTableViewController.m in Sources */,
 				CE82ECE2164FDC0A0031B243 /* main.m in Sources */,
 				CE82ECE6164FDC0A0031B243 /* MDAppDelegate.m in Sources */,
 				CE82ECEF164FDC0A0031B243 /* MDViewController.m in Sources */,
+				CE82ECFA164FDD730031B243 /* Notes.xcdatamodeld in Sources */,
+				CE8B268716513A0C000C073E /* AddNoteViewController.m in Sources */,
+				CE8B268B16513A89000C073E /* DateViewController.m in Sources */,
+				CEE2207D1653ED2500036BFA /* NoteDetailViewController.m in Sources */,
+				CE7C577116578ED100F693DA /* MapViewController.m in Sources */,
+				CE7C57981657A93900F693DA /* NoteAnnotation.m in Sources */,
+				CE7C258816586DAF003CC82F /* Note.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +328,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -242,6 +349,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -289,8 +397,22 @@
 				CE82ECF4164FDC0A0031B243 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CE82ECF8164FDD730031B243 /* Notes.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE82ECF9164FDD730031B243 /* Notes.xcdatamodel */,
+			);
+			currentVersion = CE82ECF9164FDD730031B243 /* Notes.xcdatamodel */;
+			path = Notes.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = CE82ECC8164FDC0A0031B243 /* Project object */;
 }
