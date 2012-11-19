@@ -20,8 +20,10 @@ typedef enum
 + (UIImage *)PhotoWindow:(NSArray *)imageArray
          withOrientation:(PhotoOrientation)orientation 
                    Range:(CGRect) range;
-+ (UIImage *)PhotoMerge:(UIImage *)frontImage
-                  Image:(UIImage *)endImage
-        withOrientation:(PhotoOrientation)orientation;
++ (UIImage *)PhotoCombine:(UIImage *)frontImage
+                    Image:(UIImage *)endImage
+          withOrientation:(PhotoOrientation)orientation;
++ (UIImage *)PhotoCut:(UIImage *)image
+               inRect:(CGRect)rect;
 
 @end
