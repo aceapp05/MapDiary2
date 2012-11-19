@@ -36,6 +36,8 @@
 		CE8B268716513A0C000C073E /* AddNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8B268616513A0C000C073E /* AddNoteViewController.m */; };
 		CE8B268B16513A89000C073E /* DateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8B268A16513A89000C073E /* DateViewController.m */; };
 		CEE2207D1653ED2500036BFA /* NoteDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE2207C1653ED2500036BFA /* NoteDetailViewController.m */; };
+		F28BBA23165A6FE000D2A69C /* How_To_Use.txt in Resources */ = {isa = PBXBuildFile; fileRef = F28BBA20165A6FE000D2A69C /* How_To_Use.txt */; };
+		F28BBA24165A6FE000D2A69C /* PhotoEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = F28BBA22165A6FE000D2A69C /* PhotoEditor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +84,9 @@
 		CE8B268A16513A89000C073E /* DateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateViewController.m; sourceTree = "<group>"; };
 		CEE2207B1653ED2400036BFA /* NoteDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteDetailViewController.h; sourceTree = "<group>"; };
 		CEE2207C1653ED2500036BFA /* NoteDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteDetailViewController.m; sourceTree = "<group>"; };
+		F28BBA20165A6FE000D2A69C /* How_To_Use.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = How_To_Use.txt; sourceTree = "<group>"; };
+		F28BBA21165A6FE000D2A69C /* PhotoEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoEditor.h; sourceTree = "<group>"; };
+		F28BBA22165A6FE000D2A69C /* PhotoEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoEditor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +139,7 @@
 		CE82ECDB164FDC0A0031B243 /* MapDiaryDemo2 */ = {
 			isa = PBXGroup;
 			children = (
+				F28BBA1F165A6F7F00D2A69C /* PhotoEditor */,
 				CE82ED05164FDEE50031B243 /* images */,
 				CE82ECE4164FDC0A0031B243 /* MDAppDelegate.h */,
 				CE82ECE5164FDC0A0031B243 /* MDAppDelegate.m */,
@@ -157,6 +163,7 @@
 				CE7C577016578ED100F693DA /* MapViewController.m */,
 				CE7C57961657A93900F693DA /* NoteAnnotation.h */,
 				CE7C57971657A93900F693DA /* NoteAnnotation.m */,
+				CE82ECDE164FDC0A0031B243 /* InfoPlist.strings */,
 				CE82ECDC164FDC0A0031B243 /* Supporting Files */,
 				CE7C258616586DAF003CC82F /* Note.h */,
 				CE7C258716586DAF003CC82F /* Note.m */,
@@ -169,7 +176,6 @@
 			isa = PBXGroup;
 			children = (
 				CE82ECDD164FDC0A0031B243 /* MapDiaryDemo2-Info.plist */,
-				CE82ECDE164FDC0A0031B243 /* InfoPlist.strings */,
 				CE82ECE1164FDC0A0031B243 /* main.m */,
 				CE82ECE3164FDC0A0031B243 /* MapDiaryDemo2-Prefix.pch */,
 			);
@@ -188,6 +194,16 @@
 				CE82ED0C164FDEF30031B243 /* note_beta.jpg */,
 			);
 			name = images;
+			sourceTree = "<group>";
+		};
+		F28BBA1F165A6F7F00D2A69C /* PhotoEditor */ = {
+			isa = PBXGroup;
+			children = (
+				F28BBA20165A6FE000D2A69C /* How_To_Use.txt */,
+				F28BBA21165A6FE000D2A69C /* PhotoEditor.h */,
+				F28BBA22165A6FE000D2A69C /* PhotoEditor.m */,
+			);
+			name = PhotoEditor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +267,7 @@
 				CE82ED11164FDEF30031B243 /* map.jpg in Resources */,
 				CE82ED12164FDEF30031B243 /* ok.jpg in Resources */,
 				CE82ED13164FDEF30031B243 /* note_beta.jpg in Resources */,
+				F28BBA23165A6FE000D2A69C /* How_To_Use.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +291,7 @@
 				CE7C577116578ED100F693DA /* MapViewController.m in Sources */,
 				CE7C57981657A93900F693DA /* NoteAnnotation.m in Sources */,
 				CE7C258816586DAF003CC82F /* Note.m in Sources */,
+				F28BBA24165A6FE000D2A69C /* PhotoEditor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
